@@ -1,25 +1,18 @@
-# Ember-format-currency
+# ember-format-currency
 
-This README outlines the details of collaborating on this Ember addon.
+Just an easy way to format currency.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `ember install ember-format-currency`
 
-## Running
+## Example
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+`{{format-currency 1}}`
 
-## Running Tests
+$1.00
 
-* `ember test`
-* `ember test --server`
+`{{format-currency 1000.40}}`
 
-## Building
+$1,000.40
 
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
